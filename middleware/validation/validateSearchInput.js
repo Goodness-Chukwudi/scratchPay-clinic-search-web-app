@@ -13,7 +13,7 @@ search = {
 
 "use strict";
 const xss = require("xss"),
-	searchSchema = require("../../../model/searchSchema");
+	searchSchema = require("../../model/searchSchema");
 
 const validator = (req, res, next) => {
 	const sanitizeInput = (input) => {

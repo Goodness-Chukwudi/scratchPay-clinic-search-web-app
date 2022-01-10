@@ -24,9 +24,9 @@
  */
 "use strict";
 
-const log = require("../utils/errorLogger"),
-	findDentalClinics = require("../../controllers/findDentalClinics"),
-	findVetClinics = require("../../controllers/findVetClinics");
+const log = require("./utils/errorLogger"),
+	findDentalClinics = require("./findDentalClinics"),
+	findVetClinics = require("./findVetClinics");
 
 const matchClinics = async (req, res) => {
 	let result = {};
