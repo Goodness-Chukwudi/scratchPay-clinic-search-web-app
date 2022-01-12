@@ -1,6 +1,6 @@
 # INTRODUCTION
 
-scratchPay-clinic-search is RESTful API endpoint built with Node JS, express and tested with Jest test suite.
+scratchPay-clinic-search web application built with Node JS, express and tested with Jest test suite.
 
 It provides an endpoint to allow search in multiple clinic providers and display results from all the available clinics by any of the following: Clinic Name, State [ex: "CA" or "California"], Availability [ex: from:09:00, to:20:00].
 
